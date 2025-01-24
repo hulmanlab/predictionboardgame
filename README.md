@@ -115,7 +115,9 @@ Each section of the script focuses on a specific task, as outlined below:
 -   Bring pen and paper (and prizes, everybody loves prizes) to distribute to the participants.
 
 ## Game Rules
-(WIP)
+
+**WIP**
+
 First, the a training set is distributed and used for model development, and the participant's models are then validated on a held-out test set in order to declare the winner.
 Each card corresponds to a unique dataset entry and is designed to be visually distinct, ensuring variety in the game..
 
