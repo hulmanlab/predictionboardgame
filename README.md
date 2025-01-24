@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: sentence
----
-
 # Clinical Prediction Board Game
 
 This project provides scripts to generate materials for the clinical prediction board game.
