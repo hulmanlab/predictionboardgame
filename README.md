@@ -15,20 +15,20 @@ The game involves distributing these materials to the game's participants who ar
 -   [Contributing](#contributing)
 -   [License](#license)
 
-## Overview {#overview}
+## Overview
 
 The Clinical Prediction Board Game is designed to educate participants on clinical prediction methodologies.
 By working with synthetic data visualized as polygons, players can engage in hands-on learning about data analysis and prediction model development in a clinical context.
 
 It is heavily inspired by the D3A 2.0 workshop [Applied Chemometrics – an engaging 20-minute challenge on spectral data](https://d3aconference.dk/applied-chemometrics-an-engaging-20-minute-challenge-on-spectral-data/) by [Beatriz Quintanilla Casas](https://food.ku.dk/english/staff/?pure=en/persons/768954) & [Åsmund Rinnan](https://food.ku.dk/english/staff/?pure=en/persons/310780).
 
-## Features {#features}
+## Features
 
 -   **Synthetic Data Generation**: Create realistic yet fictional clinical datasets.
 -   **Polygon Visualization**: Transform data into polygonal plots optimized for printing and manual cutting.
 -   **Training and Test Sets**: Distribute data sets as physical cards to participants for fun exercises.
 
-## Installation {#installation}
+## Installation
 
 To set up the project locally:
 
@@ -45,7 +45,7 @@ Or using *bash*:
 **Installation**: Make sure to have R installed.
 Run `setup.R` to check, install, and load package dependencies.
 
-## Usage {#usage}
+## Usage
 
 The `main.R` orchestrates the generation of game materials in several stages.
 Each section of the script focuses on a specific task, as outlined below:
@@ -106,7 +106,7 @@ Each section of the script focuses on a specific task, as outlined below:
     source(here::here("R", "plot_teasers.R"))
     ```
 
-## Prepare Game Materials:
+### Prepare Game Materials:
 
 -   Print the image files `cards.png` and `legends.png` in the `materials` folder on at least A4 size paper, preferably thick printing paper or cardboard.
     -   Print one copy per participant group and a copy for your own use. A few additional copies are recommended as backups, as the cards are easily lost.
@@ -114,12 +114,12 @@ Each section of the script focuses on a specific task, as outlined below:
 -   Advertise the game to attract participants. You can use the teaser plots or poster found in the `materials` folder.
 -   Bring pen and paper (and prizes, everybody loves prizes) to distribute to the participants.
 
-## Game Rules (WIP)
-
+## Game Rules
+(WIP)
 First, the a training set is distributed and used for model development, and the participant's models are then validated on a held-out test set in order to declare the winner.
 Each card corresponds to a unique dataset entry and is designed to be visually distinct, ensuring variety in the game..
 
-## Contributing {#contributing}
+## Contributing
 
 Contributions to enhance the game and its materials are welcome.
 To contribute:
