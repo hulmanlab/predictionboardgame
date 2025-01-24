@@ -122,11 +122,11 @@ Each card corresponds to a unique dataset entry and is designed to be visually d
 Contributions to enhance the game and its materials are welcome.
 To contribute:
 
-Fork the repository.
-Create a new branch.
-Commit your changes.
-Push to the branch.
-Open a Pull Request.
+1. Fork the repository.
+2. Create a new branch.
+3. Commit your changes.
+4. Push to the branch.
+5. Open a Pull Request.
 
 ## License {#license}
 
