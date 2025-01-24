@@ -92,11 +92,19 @@ Each section of the script focuses on a specific task, as outlined below:
 
 6.  **Plot Legends for the Game**:
 
-    Legends that help participants interpret the game cards are generated using the `plot_legend_sheet.R` script: `R  source(here::here("R", "plot_legend_sheet.R"))`
+    Legends that help participants interpret the game cards are generated using the `plot_legend_sheet.R` script: 
+    
+    ``` r
+    source(here::here("R", "plot_legend_sheet.R"))
+    ```
 
 7.  **Plot Teasers for Advertising the Game:**:
 
-    Teaser images for promotional purposes are created with the plot_teasers.R script: `R  source(here::here("R", "plot_teasers.R"))`
+    Teaser images for promotional purposes are created with the plot_teasers.R script:
+    
+    ``` r
+    source(here::here("R", "plot_teasers.R"))
+    ```
 
 ## Prepare Game Materials:
 
