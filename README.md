@@ -39,8 +39,10 @@ Using the graphical user interface in RStudio From the toolbar: `File -> New Pro
 and copy the git url: `https://github.com/hulmanlab/predictionboardgame.git`
 
 Or using *bash*:
-
-`bash    git clone https://github.com/hulmanlab/predictionboardgame.git    cd predictionboardgame`
+``` bash
+    git clone https://github.com/hulmanlab/predictionboardgame.git
+    cd predictionboardgame
+```
 
 **Installation**: Make sure to have R installed.
 Run `setup.R` to check, install, and load package dependencies.
@@ -52,7 +54,7 @@ Each section of the script focuses on a specific task, as outlined below:
 
 1.  **Setup**:
 
-    If you have the [`here` package](https://cran.r-project.org/package=here) installed, you can run the setup directly from `main.R`:
+    If you have the `here` [package](https://cran.r-project.org/package=here) installed, you can run the setup directly from `main.R`:
 
     ``` r
     source(here::here("R", "setup.R"))
@@ -111,8 +113,9 @@ Each section of the script focuses on a specific task, as outlined below:
 -   Print the image files `cards.png` and `legends.png` in the `materials` folder on at least A4 size paper, preferably thick printing paper or cardboard.
     -   Print one copy per participant group and a copy for your own use. A few additional copies are recommended as backups, as the cards are easily lost.
     -   For each copy, cut out each panel in `cards.png` and stack them into training sets (labelled "C", "W", and "N" depending on the outcome) and test sets (labelled "T").
--   Advertise the game to attract participants. You can use the teaser plots or poster found in the `materials` folder.
+-   Advertise the game to attract participants. You can use the teaser plots or the poster in the `materials` folder.
 -   Bring pen and paper (and prizes, everybody loves prizes) to distribute to the participants.
+-   Present the game setting and the rules to the participants. You can also use the slide show in the `materials` folder.
 
 ## Game Rules
 
